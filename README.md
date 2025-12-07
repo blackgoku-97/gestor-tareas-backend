@@ -73,13 +73,13 @@ DELETE /api/tasks/{id}
 
 ## 🧪 Pruebas con Postman
 ```
-- Abrir Postman o Insomnia.
-- Crear una colección con los endpoints anteriores.
-- Probar el flujo completo:
-- Crear una tarea con POST /api/tasks.
-- Listar con GET /api/tasks.
-- Editar con PUT /api/tasks/{id}.
-- Eliminar con DELETE /api/tasks/{id}.
+1. Abrir Postman o Insomnia.
+2. Crear una colección con los endpoints anteriores.
+3. Probar el flujo completo:
+   - Crear una tarea con POST /api/tasks.
+   - Listar con GET /api/tasks.
+   - Editar con PUT /api/tasks/{id}.
+   - Eliminar con DELETE /api/tasks/{id}.
 ```
 
 ---
