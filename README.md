@@ -18,7 +18,7 @@ Provee una API REST para gestionar tareas: crear, listar, editar, eliminar y mar
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/gestor-tareas.git
+git clone https://github.com/blackgoku-97/gestor-tareas.git
 cd gestor-tareas/backend
 ```
 
@@ -32,6 +32,8 @@ mvn spring-boot:run
 El servidor se iniciará en:
 en el puerto 8080
 ```
+
+---
 
 ## 📡 Endpoints disponibles
 
@@ -67,6 +69,8 @@ Body JSON:
 DELETE /api/tasks/{id}
 ```
 
+---
+
 ## 🧪 Pruebas con Postman
 ```
 - Abrir Postman o Insomnia.
@@ -77,6 +81,8 @@ DELETE /api/tasks/{id}
 - Editar con PUT /api/tasks/{id}.
 - Eliminar con DELETE /api/tasks/{id}.
 ```
+
+---
 
 ## 📂 Estructura del proyecto
 ```
@@ -90,6 +96,8 @@ backend/
 │   └── application.properties
 └── pom.xml
 ```
+
+---
 
 ## 🛡️ .gitignore recomendado
 ```
@@ -107,8 +115,12 @@ target/
 .DS_Store
 ```
 
+---
+
 ## 📌 Autor
 ```
 Desarrollado por Ricardo
 Ingeniero Informático freelance, especializado en backend/mobile y soluciones reproducibles.
 ```
+
+---
